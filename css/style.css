@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Fredoka';
     src: url('../fonts/Fredoka-Regular.woff2') format('woff2'),
-        url('../fonts/Fredoka-Regular.woff') format('woff');
+    url('../fonts/Fredoka-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -111,7 +111,7 @@ h1 {
     font-weight: 700;
     line-height: normal;
     opacity: 0.6;
-
+    
     &:hover {
         color: #D23166;
         opacity: 1;
@@ -130,7 +130,7 @@ h1 {
     border: 2px solid #D23166;
     background: #D23166;
     transition: all 0.4s;
-
+    
     &:hover {
         color: #D23166;
         border: 2px solid #D23166;
@@ -202,7 +202,7 @@ h1 {
     border-radius: 5px;
     background: #D23166;
     transition: all 0.4s;
-
+    
     &:hover {
         color: #D23166;
         border-radius: 5px;
@@ -231,7 +231,7 @@ h1 {
     border-radius: 7px;
     border: 1px solid rgba(0, 0, 0, 0.03);
     background: #FFF;
-
+    
     &::before {
         content: "";
         width: 53px;
@@ -246,7 +246,7 @@ h1 {
         background-repeat: no-repeat;
         background-size: 100%;
     }
-
+    
     &:hover {
         border-radius: 7px;
         background: #FFF;
@@ -377,7 +377,7 @@ h1 {
     border-radius: 5px;
     background: #D64374;
     transition: all 0.4s;
-
+    
     &:hover {
         color: #D23166;
         border-radius: 5px;
@@ -431,7 +431,7 @@ h1 {
     padding-bottom: 4px;
     opacity: 0.6;
     margin-bottom: 50px;
-
+    
     &:hover {
         color: #000;
         opacity: 1;
@@ -510,7 +510,7 @@ sub {
     border-radius: 5px;
     background: #D64374;
     border: 2px solid #D23166;
-
+    
     &:hover {
         color: #D23166;
         border-radius: 5px;
@@ -518,6 +518,363 @@ sub {
         background: #FAFAFA;
     }
 }
+
+.man-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.man-info-wrap {
+    width: 179px;
+    margin-left: 21px;
+}
+
+.product-card2 {
+    margin-top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.man-info-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.man-info-job {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.man-say-wrapper {
+    width: 322px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.man-info-carusel {
+    display: flex;
+    align-items: center;
+}
+
+.man-info-carusel > img + img {
+    margin-left: 10px;
+}
+
+.border50 {
+    border-radius: 50%;
+}
 /* Product section end */
 
+/* Simple section start */
+
+.simple-section {
+    background-color: #F8EDF0;
+    padding: 30px 0;
+}
+
+.simple {
+    display: flex;
+    justify-content: center;
+}
+
+.simple-image {
+    margin-right: 50px;
+}
+
+.simple-top-content {
+    width: 607px;
+    margin-bottom: 31px;
+}
+
+.simple-top-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.simple-top-text {
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    opacity: 0.7;
+}
+
+.simple-between-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 41px;
+}
+
+.enter-input {
+    margin-left: 40px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    
+    &::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -38px;
+        display: inline-block;
+        background-image: url(../images/simple-icon1.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+.enter-input:nth-child(3)::before {
+    background-image: url(../images/simple-icon2.svg);
+}
+
+.enter-input + .enter-input {
+    margin-top: 19px;
+}
+
+.simple-bottom-content {
+    display: flex;
+    align-items: center;
+}
+/* Simple section end */
+
+/* Form section start */
+
+.form-section {
+    padding: 110px 0;
+}
+
+.form-title {
+    width: 485px;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.site-form {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.form-top-wrapper {
+    margin-bottom: 30px;
+    width: 680px;
+}
+
+.form-input-top {
+    width: 47%;
+    padding: 29px 156px 29px 25px;
+    color: #0F0000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+    opacity: 0.7;
+}
+
+.form-bottom-wrapper {
+    position: relative;
+}
+
+.form-label-bottom {
+    width: 636px;
+}
+
+.form-input-bottom {
+    padding: 29px 357px 29px 25px;
+    width: 95%;
+    color: #0F0000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+    opacity: 0.7;
+}
+
+.form-link-bottom {
+    position: absolute;
+    padding: 26px 44px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: #D64374;
+    left: 520px;
+}
+/* Form section end */
+
 /* Site main end */
+
+/* Site footer start */
+
+.site-footer {
+    background-color: #0A0808;
+    padding: 70px 0 104px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foooter-logo-demo {
+    margin-bottom: 9px;
+}
+
+.content1-text {
+    width: 207px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.687%; /* 16.762px */
+    letter-spacing: 0.12px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.content1-span {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.footer-links-link + .footer-links-link {
+    margin-left: 10px;
+}
+
+.content2-item + .content2-item {
+    margin-top: 10px;
+}
+
+.content2-link {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.home-bold {
+    opacity: 1;
+}
+
+.content3-item + .content3-item {
+    margin-top: 10px;
+}
+
+.content3-link {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+.footer-content4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content4-bold {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.content4-label {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.content4-input {
+    padding: 20px 164px 20px 35px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    opacity: 0.5;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.content4-button {
+    cursor: pointer;
+    padding: 16px 18px;
+    color: #FFF;
+    border: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: #D23166; 
+}
+
+.content4-link + .content4-link {
+    margin-left: 15px;
+}
+/* Site footer end */
